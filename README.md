@@ -1,6 +1,6 @@
-# Create React App
+# Prob Nothing Landing Page Repo
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Used create-react-app to build this. Bought a template from themeforest.net and logos from fiverr to hack together something. This will be a place to also build out the blog to document the platform as well as best practices and the BUIDL journey.
 
 ## Deploy Your Own
 
