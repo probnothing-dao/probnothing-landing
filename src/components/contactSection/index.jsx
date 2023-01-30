@@ -3,6 +3,7 @@ import './style.scss'
 import BGP1 from './assets/bg_1.svg'
 import BGP2 from './assets/bg_2.svg'
 import scribble from './assets/scribble.svg'
+import MailchimpFormContainer from '../mailchimpForm'
 
 const ContactSection = ({contact_data, saasVarient, bg}) => {
     if(saasVarient){
@@ -36,16 +37,7 @@ const ContactSection = ({contact_data, saasVarient, bg}) => {
                                 <h2>{contact_data.title} <span className='txt-highlight'>{contact_data.title_highlight}<img src={scribble} alt="bg_1" className='scribble' /></span></h2>
                                 <p className='txt-1 mb-16'>{contact_data.text}</p>
                                 {/* <Link to={contact_data.link} className='btn btn-primary btn-lg'>Get in touch</Link> */}
-                                {/* <form className='mt-20 me-lg-5'>
-                                    <div className="cta-form d-flex align-items-center justify-content-between">
-                                        <div className="cta-input">
-                                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your email" />
-                                        </div>
-                                        <div className="cta-btn">
-                                            <button type="submit" className="btn btn-primary btn-lg">Request Early Access</button>
-                                        </div>
-                                    </div>
-                                </form> */}
+                                <MailchimpFormContainer />
                             </div>
                         </div>
                     </div>

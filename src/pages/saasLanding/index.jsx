@@ -9,6 +9,7 @@ import Helmet from 'react-helmet'
 import Footer from '../../components/footer'
 import ContactSection from '../../components/contactSection'
 import NavBar from '../../components/navbar'
+import MailchimpFormContainer from '../../components/mailchimpForm'
 
 const SaasLanding = () => {
     return(
@@ -62,16 +63,7 @@ const Hero = () => {
                             <img src={ProbNothingLogo} className="img-fluid" alt="saas_app" />
                             <h1>Decentralized workspaces for everyone</h1>
                             <p className='txt-1 mt-16 me-lg-5'>Create teams, work on projects, manage your treasury, and publish ideas.</p>
-                            {/* <form className='mt-20 me-lg-5'>
-                                <div className="cta-form d-flex align-items-center justify-content-between">
-                                    <div className="cta-input">
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your email" />
-                                    </div>
-                                    <div className="cta-btn">
-                                        <button type="submit" className="btn btn-primary btn-lg">Request Early Access</button>
-                                    </div>
-                                </div>
-                            </form> */}
+                            <MailchimpFormContainer />
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <img src={HeroImage} className="img-fluid" alt="saas_app" />
